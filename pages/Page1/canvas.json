@@ -1,0 +1,187 @@
+{
+  "unpublishedPage": {
+    "name": "Page1",
+    "slug": "page1",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 4896,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 5000,
+          "containerStyle": "none",
+          "snapRows": 125,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 60,
+          "minHeight": 1292,
+          "dynamicTriggerPathList": [],
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "none",
+              "widgetName": "swiper1",
+              "isCanvas": false,
+              "displayName": "轮播",
+              "iconSVG": "/static/media/icon.4f4fc85755aec79b99f64362b22f7493.svg",
+              "topRow": 4,
+              "bottomRow": 28,
+              "parentRowSpace": 10,
+              "type": "TARO_SWIPER_WIDGET",
+              "hideCard": false,
+              "parentColumnSpace": 6.84375,
+              "leftColumn": 4,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "isMobile": true,
+              "key": "q58sg9yunk",
+              "isDeprecated": false,
+              "rightColumn": 60,
+              "widgetId": "ljpvhx6837",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "list": [
+                {
+                  "url": "https://img01.yzcdn.cn/vant/apple-1.jpg"
+                },
+                {
+                  "url": "https://img01.yzcdn.cn/vant/apple-2.jpg"
+                },
+                {
+                  "url": "https://img01.yzcdn.cn/vant/apple-3.jpg"
+                },
+                {
+                  "url": "https://img01.yzcdn.cn/vant/apple-4.jpg"
+                }
+              ],
+              "parentId": "0",
+              "urlKey": "url",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "cell1",
+              "isCanvas": false,
+              "displayName": "单元格",
+              "iconSVG": "/static/media/icon.16b369842006456d255de48c74443617.svg",
+              "topRow": 31,
+              "bottomRow": 43,
+              "parentRowSpace": 10,
+              "bordered": false,
+              "type": "TARO_CELL_WIDGET",
+              "hideCard": false,
+              "parentColumnSpace": 6.84375,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 4,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "isMobile": true,
+              "key": "trh9ogcq7r",
+              "isDeprecated": false,
+              "rightColumn": 60,
+              "inset": false,
+              "widgetId": "1qrov61h91",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "cellsObj": {
+                "cell1": {
+                  "label": "单元格 1",
+                  "id": "cell1",
+                  "widgetId": "",
+                  "isVisible": true,
+                  "picType": "none",
+                  "showArrow": true,
+                  "index": 0
+                },
+                "cell2": {
+                  "label": "单元格 2",
+                  "id": "cell2",
+                  "widgetId": "",
+                  "isVisible": true,
+                  "picType": "none",
+                  "showArrow": true,
+                  "index": 1
+                }
+              }
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "search1",
+              "isCanvas": false,
+              "displayName": "搜索框",
+              "iconSVG": "/static/media/icon.02dadb91d73ad94aa8aaabf7fef790c7.svg",
+              "topRow": 45,
+              "bottomRow": 53,
+              "parentRowSpace": 10,
+              "type": "TARO_SEARCH_WIDGET",
+              "hideCard": false,
+              "parentColumnSpace": 6.84375,
+              "readonly": false,
+              "leftColumn": 4,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "isMobile": true,
+              "key": "vevun0vglj",
+              "isDeprecated": false,
+              "rightColumn": 60,
+              "widgetId": "qxtras31dl",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "inputAlign": "left",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "showButton": false,
+              "rounded": true
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "validOnPageLoadActions": true,
+        "id": "Page1",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": []
+  },
+  "deleted": false,
+  "gitSyncId": "63e49e1cdbe2d70381b9072e_63e49e1cdbe2d70381b90730"
+}
